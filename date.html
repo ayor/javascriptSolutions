@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form>
+        start date: <input type="date" id="startDate" /><br /><br />
+        leave days: <input type="text" id="leaveDays" /><br /><br />
+        Employee Type: <select > <option selected="selected" > select</option>
+                                <option value="Office">Office</option>
+                                <option value="Field">Field</option>
+                       </select>
+
+
+        <button type="button" id="calcBtn" onclick="ResumptionDate()">Calculate</button>
+
+        <p id="output"></p>
+        <p id="output1"></p>
+
+    </form>
+    <script src="moment.min.js"></script>
+    <script src="dates.js" type="text/javascript" ></script>
+</body>
+</html>
